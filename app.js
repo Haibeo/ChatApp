@@ -52,6 +52,7 @@ const onlineUsers = {};
 const availableRooms = {};
 
 io.on('connection', socket => {
+    console.log('someone connect!!');
     socket.on('identify', username => {
         socket.username = username;
         onlineUsers[username] = socket.id;
