@@ -11,7 +11,7 @@ const AppRouter = require('./Route/AppRouter');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-mongodb+srv://Halley:0913127854Hai@mydb.0us8q.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 
 const mongoUrl = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/myDb';
 const port = process.env.PORT || 3000;
